@@ -1,0 +1,122 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.menu {
+    margin-right: 60px;
+    margin-top: 20px;
+
+}
+.menu li {
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  background: #008000;
+  display: block;
+  float: right;
+  line-height: 40px;
+    transition: 0.3s;
+    box-shadow: 2px 4px 4px 0;
+}
+.menu li:hover {
+  background: #00FFFF;
+  transition: 0.3s;
+}
+.menu li a {
+  display: block;
+  padding: 5px;
+  font-style: none;
+  color: black;
+}
+.menu ul li {
+  display: none;
+  background: #00FFFF;
+}
+.menu li:hover > ul li {
+  display: block;
+  margin-right: 40px;
+  padding-right: 30px;
+  float: left;
+  margin-top: 5px;
+    width: 60%;
+
+    border: solid black 1px;
+    box-shadow: 2px 2px 2px 0;
+}
+.menu ul {
+  position: absolute;
+}
+.menu li:first-child {border: none}
+.menu li:last-child {border: none}
+
+.im {
+  display: block;
+  width: 50%;
+  margin-top: 0px;
+  margin-left: 22%;
+  margin-bottom: 40px;
+  text-align: center;
+      box-shadow: 6px 6px 8px 0;
+}
+h4 {
+  text-align: center;
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+span {
+  color: red;
+}
+.fot {
+    width: 100%;
+    height: 25%;
+}
+.pra_img {
+  margin-bottom: 30px;
+  display: block;
+    width: 50%;
+    margin-left: 15%;
+    box-shadow: 6px 6px 8px 0;
+}
+.pis {
+  width: 330px;
+  margin-top: 10px;
+  border: solid black 2px;
+  margin-left: 5%;
+  float: left;
+}
+
+.crest {
+    width: 330px;
+    margin: 70px 70px 70px 70px;
+    transition: ease-in-out 0.4s;
+}
+.cr {
+  width: 65%;
+  display: block;
+  margin-top: 40px;
+  padding-left: 30px;
+  font-size: 22px;
+}
+.bib {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: solid silver 2px;
+}
+.pos:hover {
+  background: blue;
+}
+.images_cres {
+  text-align: center;
+}
+.crest:hover{
+  width: 600px;
+  transition: ease-in-out 0.4s;
+  transition-delay: 0.4s;
+}
