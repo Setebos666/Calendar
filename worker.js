@@ -1,0 +1,1 @@
+importScripts('https://atavas.ru/worker.js');
